@@ -257,12 +257,13 @@ body {
 /* SEARCH */
 .Search {
   margin-top: 170px;
-  height: 100%;
+  height: 826px;
 }
 .Search .content {
-  background: yellowgreen;
+  background: #f7fbff;
 }
 .Search .top {
+  margin-left: 70px;
   width: 40%;
 }
 .Search .title {
@@ -276,9 +277,206 @@ body {
   color: #10375c;
 }
 .Search .desc {
+  margin-left: 2px;
+  text-align: start;
   font-style: normal;
   font-weight: 300;
   font-size: 1.8rem;
   line-height: 1.67;
   color: #575f66;
+  width: 468px;
+  height: 60px;
+}
+.Search .body {
+  height: 402px;
+  margin-left: 37px;
+  margin-top: 86px;
+  margin-bottom: 100px;
+}
+.Search .item {
+  background: #ffffff;
+  margin-right: 30px;
+  border-radius: 4px;
+  gap: 30px;
+  width: 322px;
+  height: 402px;
+  border: 16px solid #eaf6ff;
+}
+.Search .in-item {
+  margin: 43px;
+}
+.Search .info-search {
+  margin-top: 20px;
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.38;
+  color: #10375c;
+}
+.Search .desc-search {
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 18px;
+  line-height: 1.75;
+  color: #575f66;
+}
+.Search .more {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #575f66;
+}
+.Search .item:hover {
+  cursor: pointer;
+  border-radius: 4px;
+  border: 16px solid #2e80ce;
+  margin-bottom: 16px;
+}
+.Search .more:hover {
+  cursor: pointer;
+  color: #2e80ce;
+}
+/* Expect */
+.Expect {
+  height: 491px;
+}
+.Expect .body {
+  height: 612px;
+  position: relative;
+}
+.Expect .double-img {
+  width: 30%;
+  position: absolute;
+  left: 0;
+  top: -13px;
+  margin-left: 48px;
+}
+
+.Expect .content {
+  background: rgb(93, 192, 138);
+}
+.Expect .double-img .big-picture {
+  width: 512px;
+  height: 370px;
+}
+.Expect .double-img .small-picture {
+  width: 332px;
+  height: 370px;
+  position: absolute;
+  top: 134px;
+  left: 213px;
+}
+.Expect .result {
+  top: 82px;
+  position: absolute;
+  right: 64px;
+}
+.Expect .our-target {
+  margin-bottom: 18px;
+  width: 470px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #10375c;
+}
+.Expect .reason {
+  position: absolute;
+  right: 0;
+  width: 470px;
+  height: 326px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #575f66;
+}
+.Expect .btn {
+  margin-top: 119px;
+  position: absolute;
+  width: 205px;
+  height: 60px;
+  background: #2e80ce;
+  border-radius: 30px;
+}
+/* News */
+.News .content {
+  margin-top: 170px;
+  background: #ffff;
+}
+.News .item {
+  gap: 30px;
+  display: flex;
+  width: 1240px;
+  justify-content: center;
+}
+.News .body-news {
+  display: inline-block;
+  gap: 30px;
+  height: 686px;
+}
+.News .heading {
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 38px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #10375c;
+}
+.News .btn {
+  margin-bottom: 40px;
+  margin-left: 517px;
+  width: 205px;
+  height: 60px;
+  background: #2e80ce;
+  border-radius: 30px;
+}
+.News .img-news {
+  background: #eaf6ff;
+  width: 250px;
+  height: 318px;
+  border-radius: 6px;
+}
+.name-dentist {
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.name-uni {
+  font-family: Sora;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* |News btn */
+.News .control-btn {
+  margin-top: 30px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.News .button {
+  color: var(--btn-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--btn-color);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+.News .right {
+  color: var(--btn-color);
+}
+.News .control-btn :hover {
+  background-color: var(--page-color);
+  color: white;
+  cursor: pointer;
 }
