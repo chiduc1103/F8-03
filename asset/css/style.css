@@ -2,6 +2,37 @@ body {
   font-size: 1.6 rem;
   font-family: "Sora", sans-serif;
 }
+.content-center {
+  margin-bottom: 200px;
+  margin-left: 75px;
+  justify-content: center;
+  background-color: #2e80ce;
+  display: flex;
+  position: relative;
+  width: 1100px;
+  height: 427px;
+  border-radius: 4px;
+}
+.button {
+  color: var(--btn-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--btn-color);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+.control-btn {
+  display: flex;
+  gap: 30px;
+}
+.control-btn :hover {
+  background-color: var(--page-color);
+  color: white;
+  cursor: pointer;
+}
 :root {
   --page-color: #10375c;
   --btn-color: #2e80ce;
@@ -472,11 +503,227 @@ body {
   width: 36px;
   height: 36px;
 }
-.News .right {
-  color: var(--btn-color);
-}
 .News .control-btn :hover {
   background-color: var(--page-color);
   color: white;
   cursor: pointer;
+}
+.News .right {
+  color: var(--btn-color);
+}
+
+/* ====APPS==== */
+.App {
+  margin-bottom: 200px;
+  margin-left: 75px;
+  justify-content: center;
+  background-color: #2e80ce;
+  display: flex;
+  position: relative;
+  width: 1100px;
+  height: 427px;
+  border-radius: 4px;
+}
+.App .text {
+  position: absolute;
+  top: 45px;
+  right: 45px;
+  width: 586px;
+  height: 276px;
+  border: 1px;
+}
+.App .mobile {
+  position: absolute;
+  bottom: 0;
+  left: 45px;
+}
+.App .title {
+  color: #ffffff;
+  font-family: Sora;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.App .download {
+  display: flex;
+  gap: 20px;
+}
+/* ----Blog---- */
+.Blog .content-center {
+  background: white;
+}
+.Blog .Text .title {
+  width: 470px;
+  height: 120px;
+  top: 5191px;
+  left: 135px;
+  font-family: Sora;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #10375c;
+}
+.Blog .Text .cta {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #10375c;
+  margin-top: 30px;
+}
+.Blog .button {
+  width: 36px;
+  height: 36px;
+}
+.Blog .Control-Media {
+  display: flex;
+}
+.Blog .title {
+  margin: 20px 0;
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #10375c;
+}
+.Blog .detail {
+  font-family: Sora;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 226px;
+  height: 72px;
+  top: 5375px;
+  left: 757px;
+}
+.Blog .cta {
+  font-family: Sora;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Blog .Media:hover {
+  cursor: pointer;
+}
+/* Welcome */
+.Welcome .title {
+  position: relative;
+  font-family: Sora;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.Welcome .title::after {
+  position: absolute;
+
+  bottom: -40px;
+  left: 552px;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  content: "";
+}
+.Welcome .introduce {
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 617px;
+  height: 56px;
+  top: 5866px;
+  left: 411px;
+  margin-top: 80px;
+  margin-left: 316px;
+}
+.Welcome .button {
+  width: 205px;
+  height: 60px;
+  top: 5960px;
+  left: 617px;
+  border-radius: 30px;
+  margin-top: 40px;
+  margin-left: 517px;
+}
+.footer {
+  background: var(--page-color);
+  height: 533px;
+  margin-top: 100px;
+}
+.footer .text {
+  color: #a9b3bb;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 336px;
+  height: 56px;
+  top: 6442px;
+  left: 135px;
+}
+.footer {
+  display: flex;
+  padding-top: 60px;
+  padding-left: 75px;
+}
+.footer .left {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a9b3bb;
+  padding-left: 50px;
+}
+.footer .text {
+  padding-top: 20px;
+}
+.footer .hight-light {
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer .under {
+  padding-top: 25px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a9b3bb;
+  margin-right: 60px;
+}
+.footer .btn {
+  width: 108px;
+  height: 46px;
+  top: 6608px;
+  left: 1197px;
+  border-radius: 4px;
+}
+.footer .import {
+  gap: 15px;
+  display: flex;
 }
